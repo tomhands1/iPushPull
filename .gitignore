@@ -1,0 +1,17 @@
+node_modules/
+.vscode/
+.next
+.awcache
+.DS_Store
+.env
+
+# ignore symlink in angular project
+
+**/package-lock.json
+package-lock.json
+
+/packages/adaptableblotter/apidoc
+/apidoc
+yarn.lock
+dist
+.cache

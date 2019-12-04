@@ -1,0 +1,31 @@
+{
+  "name": "example-adaptableblotter-ipushpull-integration",
+  "private": true,
+  "description": "Demo of the AdaptableBlotter + IPushPull",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "AdaptableBlotter",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdaptableTools/example-adaptableblotter-ipushpull-integration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdaptableTools/example-adaptableblotter-ipushpull-integration/issues"
+  },
+  "homepage": "https://github.com/AdaptableTools/example-adaptableblotter-ipushpull-integration#readme",
+  "dependencies": {
+    "@adaptabletools/adaptableblotter": "^5.2.2-canary.2",
+    "ag-grid-community": "21",
+    "ag-grid-enterprise": "21",
+    "ipushpull-js": "^2.18.12"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2",
+    "parcel-bundler": "^1.12.4"
+  }
+}
